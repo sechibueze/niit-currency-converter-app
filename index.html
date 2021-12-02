@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curency Converter App</title>
+    <link href="./main.css" rel="stylesheet" type="text/css" />
+    \
+</head>
+<body>
+    
+    <div id="app">
+
+        <form name="cc_form" id="cc-form">
+
+            <h2>Convert your currency</h2>
+<div class="form-control-wrapper">
+
+    <select id="from" name="from">
+        <!-- <option value="USD" >US Dollar</option>
+        <option value="NGN" >Naija Naira</option>
+        <option selected value="" >Choose currency</option> -->
+    </select>
+    <select id="to" name="to">
+        <!-- <option value="USD" >US Dollar</option>
+        <option value="NGN" >Naija Naira</option>
+        <option selected value="" >Choose currency</option> -->
+    </select>
+<div class="form-control-group">
+<label for="amount">Amount</label>
+    <input name="amount" id="amount" value="" type="text" placeholder="Enter an amount" />
+</div>
+
+</div>
+
+<button class="btn" type="submit" >Convert</button>
+
+<div id="conversion">
+<p> From : $40 => NGN4000</p>
+<p> Rate : 480</p>
+</div>
+        </form>
+
+
+
+    </div>
+<script src="./main.js"></script>
+</body>
+</html>
