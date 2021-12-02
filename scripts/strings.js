@@ -1,0 +1,15 @@
+
+const str1 = '1 The quick brown, fox jumped over the lazy dogs'
+console.log(typeof str1)
+console.log('Length :', str1.length)
+console.log('Split :', str1.split(','))
+console.log('strtwith a :', str1.startsWith(1))
+console.log('endswith a :', str1.endsWith('a'))
+console.log('includes goat :', str1.includes('goat'))
+console.log('concat goat :', str1.concat('An we are doing well'))
+console.log('toLowerCase :', str1.toLowerCase())
+console.log('toUpperCase :', str1.toUpperCase())
+console.log('trim :', str1.trim().length)
+console.log('First tem chars :',str1.slice(0, 10))
+console.log('Replacing :',str1.replace('dog', 'Cypermoon'))
+console.log(str1.toLocaleLowerCase())

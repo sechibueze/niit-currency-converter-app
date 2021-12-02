@@ -1,0 +1,38 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+}
+.faq-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.faq-response{
+    display: none;
+        opacity: 0;
+        transition: all 1s ease-in-out;
+}
+.faq-item{
+    transition: all 1s ease-in-out;
+}
+.faq-item.open .faq-response{
+    display: block;
+    opacity: 1;
+}
+.faq-title{
+    background-color: green;
+    cursor: pointer;
+    padding: 1rem;
+    text-align: left;
+    color: white;
+}
